@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brenda Neaveh — A Beautiful Soul</title>
+  <meta name="description"
+    content="A beautiful interactive gift portfolio dedicated to Brenda Neaveh — singer, actor, culinary artist, cat lover, and learner. Made with love in 2026.">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <!-- Dynamic Interactive Background -->
+  <canvas id="background-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="nav-header" id="nav-header">
+    <a href="#" class="nav-brand">Brenda<span>Neaveh</span></a>
+    <ul class="nav-menu">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#passions" class="nav-link">Passions</a></li>
+      <li><a href="#march" class="nav-link">March Baby</a></li>
+      <li><a href="#message" class="nav-link">A Message</a></li>
+      <li>
+        <button class="audio-toggle-btn" id="audio-toggle">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z" />
+          </svg>
+          <span class="toggle-text">Melody: Off</span>
+          <div class="music-waves">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </li>
+    </ul>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-content">
+      <p class="hero-subtitle">Something for</p>
+      <h1 class="hero-title">
+        The Beautiful<br>
+        <span class="pink-accent">Brenda</span> <span class="blue-accent">Neaveh</span>
+      </h1>
+      <p class="hero-desc">
+        According to <span>me</span>, she is an extremely beautiful, caring, and smart person. A natural-born
+        <span>learner</span> who sings like an angel, acts with passion, makes delicious delicacies, and has a magical
+        way of making people love cats.
+      </p>
+      <div class="hero-btn-container">
+        <a href="#about" class="btn-primary">Discover Her World</a>
+        <a href="#message" class="btn-secondary">lil note to her</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="photo-stack-wrapper">
+        <div class="photo-decoration-1"></div>
+        <div class="main-photo-card">
+          <img src="./brenda0.jpeg" alt="Brenda Portrait">
+          <div class="photo-card-glow"></div>
+          <div class="photo-badge">
+            <span>Beautiful Soul</span>
+            <p>Brenda N.</p>
+          </div>
+        </div>
+        <div class="photo-decoration-2">March</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Extremely Beautiful & Caring Section (Gallery) -->
+  <section class="gallery-section reveal-in-view" id="about">
+    <h3 class="section-tag">Aesthetic & Grace</h3>
+    <h2 class="section-title">Capturing Her <span>Radiance</span></h2>
+
+    <div class="gallery-grid">
+      <!-- Masonry Grid Items using Brenda's Images -->
+      <div class="gallery-card col-1 animate-item">
+        <img src="./brenda1.jpeg" alt="Brenda Portrait 1">
+        <div class="gallery-card-content">
+          <h4 class="gallery-card-title">Damn shes Baaad😂</h4>
+          <p class="gallery-card-subtitle">Natural beauty that shines bright</p>
+        </div>
+      </div>
+
+      <div class="gallery-card col-2 animate-item">
+        <img src="./brenda3.jpeg" alt="Brenda Portrait 3">
+        <div class="gallery-card-content">
+          <h4 class="gallery-card-title">A Radiant Smile</h4>
+          <p class="gallery-card-subtitle">Warmth that lights up any room</p>
+        </div>
+      </div>
+
+      <div class="gallery-card col-3 animate-item">
+        <img src="./brenda4.jpeg" alt="Brenda Portrait 4">
+        <div class="gallery-card-content">
+          <h4 class="gallery-card-title">Pure Joy</h4>
+          <p class="gallery-card-subtitle">An elegant and gentle soul</p>
+        </div>
+      </div>
+
+      <div class="gallery-card col-4 animate-item">
+        <img src="./brenda0.jpeg" alt="Brenda Portrait 0">
+        <div class="gallery-card-content">
+          <h4 class="gallery-card-title">Her with cats waah 😭</h4>
+          <p class="gallery-card-subtitle">Extremely beautiful inside and out</p>
+        </div>
+      </div>
+
+      <div class="gallery-card col-5 animate-item">
+        <img src="./brenda1.jpeg" alt="Brenda Portrait 1 Alt">
+        <div class="gallery-card-content">
+          <h4 class="gallery-card-title">A Learner's Mind</h4>
+          <p class="gallery-card-subtitle">Smart, curious, and constantly growing</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Caring & Cat Lover Block -->
+    <div class="caring-block animate-item">
+      <div class="caring-text">
+        <h3>A Heart of Gold & <span>Feline Love</span></h3>
+        <p>
+          Brenda is a deeply caring person. Her gentle nature knows no bounds—so much so that her love for cats is
+          infectious! She has a magical ability to turn anyone into a cat enthusiast. (In fact, she completely made me
+          fall in love with cats, too!)
+        </p>
+        <p class="caring-quote">
+          "Her empathy flows effortlessly, making the world a softer, warmer place for everyone, including our little
+          furry friends."
+        </p>
+      </div>
+      <div class="caring-cat-visual">
+        <div class="caring-cat-wrapper">
+          <span class="floating-cat-item cat-1">🐾</span>
+          <span class="floating-cat-item cat-2">🐱</span>
+          <span class="floating-cat-item cat-3">💖</span>
+          <span class="floating-cat-item cat-4">✨</span>
+          <div class="paw-badge">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 14c-1.66 0-3 1.34-3 3 0 .83.34 1.58.88 2.12l2.12 2.12 2.12-2.12c.54-.54.88-1.29.88-2.12 0-1.66-1.34-3-3-3zm-5.5-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm-8-3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm5 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Passions Split Section -->
+  <section class="passions-section" id="passions">
+
+    <!-- Singer / Actor Side -->
+    <div class="passion-half singer">
+      <div class="passion-header">
+        <div class="passion-icon-box">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12 2c-1.66 0-3 1.34-3 3v7c0 1.66 1.34 3 3 3s3-1.34 3-3V5c0-1.66-1.34-3-3-3zm7 10h-1.7c0 3-2.54 5.1-5.3 5.1S6.7 15 6.7 12H5c0 3.41 2.72 6.23 6 6.72V22h2v-3.28c3.28-.48 6-3.3 6-6.72z" />
+          </svg>
+        </div>
+        <h2>The Stage &<br><span>The Melody</span></h2>
+        <p>
+          Passionate about acting, Brenda brings characters to life with dramatic depth and a natural presence.
+          Alongside her theatrical heart, she sings beautifully, filling rooms with sweet, angelic notes.
+        </p>
+      </div>
+
+      <!-- Spotlight Interactive Stage -->
+      <div class="spotlight-stage">
+        <div class="spotlight-mask"></div>
+        <div class="stage-content">
+          <h4 class="stage-title">Listen & Feel</h4>
+          <p class="stage-sub">ezz brain when brenda sings😂</p>
+          <button class="spotlight-btn">Toggle Dreamy Melody</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Culinary Side -->
+    <div class="passion-half chef">
+      <div class="passion-header">
+        <div class="passion-icon-box">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M18.06 23h1.66c.84 0 1.53-.65 1.63-1.47L23 5.05h-5V1h-2v4.05h-4V1h-2v4.05H6V1H4v4.05H1v16.48C1 22.34 1.66 23 2.48 23h15.58zM3 7.05h18v1.97H3V7.05zm0 3.94h18v10.06c0 .52-.42.95-.95.95H3.95c-.52 0-.95-.43-.95-.95V10.99z" />
+          </svg>
+        </div>
+        <h2>Baking Love &<br><span>Delicacies</span></h2>
+        <p>
+          Brenda loves cooking and enjoys crafting delicious treats. She approaches baking like an art form, adding joy
+          and attention to detail into every delicacy she makes.
+        </p>
+      </div>
+
+      <!-- Recipes Interactive Cards -->
+      <div class="recipe-drawer">
+        <div class="recipe-card">
+          <div class="recipe-card-header">
+            <h4 class="recipe-card-title">Delicate Macarons</h4>
+            <span class="recipe-card-type">Pastry Art</span>
+          </div>
+          <p class="recipe-card-desc">Click to reveal the secret ingredient she mixes into her pastries.</p>
+          <div class="recipe-ingredients-reveal">
+            <div class="ingredient-tag-list">
+              <span class="ingredient-tag">Patience</span>
+              <span class="ingredient-tag">Precision</span>
+              <span class="ingredient-tag">A Touch of Sweetness</span>
+              <span class="ingredient-tag">Pure Passion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="recipe-card-header">
+            <h4 class="recipe-card-title">Warm Berry Galette</h4>
+            <span class="recipe-card-type">Rustic Bake</span>
+          </div>
+          <p class="recipe-card-desc">Click to see what makes her comfort foods so uniquely warm.</p>
+          <div class="recipe-ingredients-reveal">
+            <div class="ingredient-tag-list">
+              <span class="ingredient-tag">Fresh Blueberries</span>
+              <span class="ingredient-tag">Golden Flaky Crust</span>
+              <span class="ingredient-tag">Laughter</span>
+              <span class="ingredient-tag">Caring Heart</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <div class="recipe-card-header">
+            <h4 class="recipe-card-title">Savory Glazed Delicacies</h4>
+            <span class="recipe-card-type">Gourmet Dinner</span>
+          </div>
+          <p class="recipe-card-desc">Click to check her custom savory seasoning mix.</p>
+          <div class="recipe-ingredients-reveal">
+            <div class="ingredient-tag-list">
+              <span class="ingredient-tag">Creative Spices</span>
+              <span class="ingredient-tag">Slow Roast</span>
+              <span class="ingredient-tag">Joyful Cooking</span>
+              <span class="ingredient-tag">Ezz's Appetite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. March Baby & Learner Section -->
+  <section class="march-section reveal-in-view" id="march">
+    <h3 class="section-tag">Born in Spring</h3>
+    <h2 class="section-title">The Magic of a <span>March Baby</span></h2>
+
+    <div class="march-container">
+      <div class="astrology-interactive animate-item">
+        <div class="constellation-wheel"></div>
+        <div class="constellation-wheel-inner"></div>
+        <div class="constellation-star star-1"></div>
+        <div class="constellation-star star-2"></div>
+        <div class="constellation-star star-3"></div>
+        <div class="constellation-star star-4"></div>
+        <div class="constellation-line line-1-2"></div>
+        <div class="constellation-line line-2-3"></div>
+        <div class="constellation-line line-3-4"></div>
+        <div class="march-center-badge">
+          <span class="month">MARCH</span>
+          <span class="flower">Daffodil</span>
+        </div>
+      </div>
+
+      <div class="march-details">
+        <div class="info-bubble animate-item">
+          <div class="info-bubble-header">
+            <span class="info-bubble-number">01</span>
+            <h4 class="info-bubble-title">Brilliant Mind & Learner</h4>
+          </div>
+          <p class="info-bubble-desc">
+            Brenda is highly intelligent. As a dedicated learner, she approaches the world with open curiosity,
+            acquiring new skills and understanding complex ideas with remarkable speed.
+          </p>
+        </div>
+
+        <div class="info-bubble animate-item">
+          <div class="info-bubble-header">
+            <span class="info-bubble-number">02</span>
+            <h4 class="info-bubble-title">Spring Blossom Energy</h4>
+          </div>
+          <p class="info-bubble-desc">
+            Like the Daffodil—the flower of March—Brenda represents rebirth, optimism, and warm sunshine. She brings
+            hope and new energy wherever she steps.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Heartfelt Message from Ezz & Footer -->
+  <section class="message-section reveal-in-view" id="message">
+    <h3 class="section-tag">A Letter to Brenda</h3>
+    <h2 class="section-title">From <span>Ezz dev</span></h2>
+
+    <!-- Hover-to-Open Interactive Envelope -->
+    <div class="message-envelope-wrapper animate-item">
+      <div class="envelope">
+        <div class="envelope-back"></div>
+        <div class="envelope-flap"></div>
+        <div class="letter">
+          <h4 class="letter-heading">Dearest Brenda,</h4>
+          <p class="letter-text">
+            To be honest , <span>Brenda </span>,didn’t think I’d touch this project again, but somehow I ended up back
+            here — halfway across the world now. Life just moved fast, I guess. Hope you’ve been okay though, and still
+            smiling.
+
+          </p>
+          <div class="letter-signature">Ezz</div>
+        </div>
+        <div class="envelope-pocket"></div>
+      </div>
+    </div>
+
+    <div class="envelope-prompt">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+      </svg>
+      <span>Hover to Open Envelope</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-logo">Brenda Neaveh</div>
+    <div class="footer-credit">Made with <span>💖</span> by Ezz in 2026</div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
